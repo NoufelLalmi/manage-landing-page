@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: ['./*.html'],
   theme: {
@@ -20,6 +21,9 @@ module.exports = {
         veryLightGray: 'hsl(0, 0%, 98%)',
       }
     },
+    fontFamily: {
+      'display': ['Be Vietnam Pro', 'san-serif'],
+    }
   },
   plugins: [],
 }
